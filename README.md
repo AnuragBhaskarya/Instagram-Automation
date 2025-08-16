@@ -11,15 +11,15 @@ A complete, production-ready workflow for automatically downloading, processing,
 │   (Local Machine)   │     │  (Cloudflare Worker) │     │ (Cloudflare Worker) │
 │     main.py         │     │     worker.js        │     │     worker.js       │
 └─────────────────────┘     └──────────────────────┘     └─────────────────────┘
-          │                            │                           │
-          ▼                            ▼                           ▼
-┌─────────────────────┐    ┌──────────────────────┐    ┌─────────────────────┐
-│ • yt-dlp downloads  │    │ • OAuth 2.0 tokens   │    │ • Every 4hrs cron   │
-│ • Advanced FFmpeg   │    │ • Auto file upload   │    │ • 20 random captions│
-│ • Telegram + Flask  │    │ • /stats analytics   │    │ • Facebook Graph API│
-│ • IP registration   │    │ • Smart KV caching   │    │ • Auto file cleanup │
-│ • Async processing  │    │ • Error reporting    │    │ • Job locking       │
-└─────────────────────┘    └──────────────────────┘    └─────────────────────┘
+          │                            │                            │
+          ▼                            ▼                            ▼
+┌─────────────────────┐     ┌──────────────────────┐     ┌─────────────────────┐
+│ • yt-dlp downloads  │     │ • OAuth 2.0 tokens   │     │ • Every 4hrs cron   │
+│ • Advanced FFmpeg   │     │ • Auto file upload   │     │ • 20 random captions│
+│ • Telegram + Flask  │     │ • /stats analytics   │     │ • Facebook Graph API│
+│ • IP registration   │     │ • Smart KV caching   │     │ • Auto file cleanup │
+│ • Async processing  │     │ • Error reporting    │     │ • Job locking       │
+└─────────────────────┘     └──────────────────────┘     └─────────────────────┘
 ```
 
 
