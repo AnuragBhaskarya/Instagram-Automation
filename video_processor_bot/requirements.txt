@@ -1,0 +1,14 @@
+# Core Dependencies - Pinned for Production
+yt-dlp==2024.8.6
+python-telegram-bot==20.7
+flask==3.0.0
+python-dotenv==1.0.0
+requests==2.31.0
+
+# System Dependencies (if needed)
+# Note: FFmpeg must be installed separately on system level
+
+# Development Dependencies (optional)
+# pytest==7.4.3
+# black==23.11.0
+# flake8==6.1.0
